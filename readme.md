@@ -42,6 +42,7 @@ Publish the package's configuration file to the application's own config directo
 
     php artisan vendor:publish --provider="Edujugon\SocialAutoPost\Providers\SocialAutoPostServiceProvider" --tag="config"
 
+> Go to [laravel-alias-facade](https://github.com/edujugon/SocialAutoPost#laravel-alias-facade) sample directly.
 
 ## Configuration
 
