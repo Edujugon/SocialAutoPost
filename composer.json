@@ -1,0 +1,26 @@
+{
+    "name": "edujugon/social-auto-post",
+    "description": "PHP and Laravel 5 Package to post on Twitter",
+    "keywords": ["Laravel","post","social","twitter","auto-post","tweet"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eduardo Marcos",
+            "email": "edujugon@hotmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=5.5.0",
+        "illuminate/support": "^5.2",
+        "jublonet/codebird-php": "^3.1"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+      "psr-4": {
+        "Edujugon\\SocialAutoPost\\": "src/"
+      }
+    },
+    "minimum-stability": "dev"
+}

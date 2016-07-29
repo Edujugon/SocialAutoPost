@@ -1,0 +1,14 @@
+<?php namespace Edujugon\SocialAutoPost\Facades;
+
+use Illuminate\Support\Facades\Facade;
+
+class SocialAutoPost extends Facade {
+
+    /**
+     * Get the registered name of the component.
+     *
+     * @return string
+     */
+    protected static function getFacadeAccessor() { return 'socialAutoPost'; }
+
+}
