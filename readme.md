@@ -221,7 +221,7 @@ There are 2 way to get the post response:
 After register the Alias Facade for this Package, you can use it like follows:
 
     SocialAutoPost::site('twitter')
-            ->params(['status' => 'My new post #twitter])
+            ->params(['status' => 'My new post #twitter'])
             ->post()
             ->withFeedback();
 
