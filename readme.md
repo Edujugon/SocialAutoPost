@@ -84,7 +84,7 @@ Now you may use any method what you need. Please see the API List.
 - [getFeedback](https://github.com/edujugon/SocialAutoPost#getfeedback)
 - [getConfig](https://github.com/edujugon/SocialAutoPost#getconfig)
 
-> Or go to [usage-samples](https://github.com/edujugon/SocialAutoPost#usage-samples) directly.
+> Or go to [Usage samples](https://github.com/edujugon/SocialAutoPost#usage-samples) directly.
 
 #### site
 
