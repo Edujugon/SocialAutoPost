@@ -214,7 +214,7 @@ or do it separately
 * status
 * media (optional)
     + local path to your image.
-    + url to you url.
+    + url to you image.
 
 #### Getting the Social Site response after posting
 
