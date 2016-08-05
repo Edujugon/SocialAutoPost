@@ -106,7 +106,7 @@ object site($socialName)
 object params(array $data)
 ```
 
-Check out the [Params Available](https://github.com/edujugon/SocialAutoPost#params-availables).
+Check out the [Params Available](https://github.com/edujugon/SocialAutoPost#params-available).
 #### post
 
 `post` method sends the post. This method does not return the post response.
