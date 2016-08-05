@@ -106,6 +106,7 @@ object site($socialName)
 object params(array $data)
 ```
 
+Check out the [Params Available](https://github.com/edujugon/SocialAutoPost#params-availables).
 #### post
 
 `post` method sends the post. This method does not return the post response.
@@ -186,6 +187,16 @@ array getConfig()
     $social->params(['status' => 'My new post #twitter])
             ->post()
             ->withFeedback();
+            
+or with media
+     
+    $social = new SocialAutoPost('twitter');
+        
+        $social->params(['status' => 'My new post #twitter,
+                        'media' =>'/path/myImage.jpg'
+                        ])
+                ->post()
+                ->withFeedback();
 
 **NOTICE that Status cannot be over 140 characters for TWITTER.**
 
@@ -196,6 +207,14 @@ or do it separately
     $social->post();
 
 
+### Params Available
+
+#### Twitter
+ 
+* status
+* media (optional)
+    + local path to your image.
+    + url to you url.
 
 #### Getting the Social Site response after posting
 
